@@ -58,11 +58,16 @@
 .card_item{
     width: 386px;
     height: 330px;
+    
+    
+    padding: 30px 30px 40px 30px;
+    position: relative;
+}
+
+.db_card{
     border: 1px solid transparent;
     border-radius: 6px;
     background-color: #FFF5F5;
-    padding: 30px 30px 40px 30px;
-    position: relative;
 }
 
 .card_pic_box{
