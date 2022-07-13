@@ -10,7 +10,7 @@
     
     <!-- Подключаем CSS(файл со стилями) -->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 
     <!-- Подключаем файл со стилями для мобильной версии -->
     <!-- <link rel="stylesheet" href="css/mobile_style.css"> -->
@@ -36,8 +36,7 @@
             <h3 class="menu_title">
                 My wishes
             </h3>
-        
-
+    
             <ul class="navigation">
                 <li class="nav_item">
                     <a class="nav_link" href="#s1">3 dreams</a>
@@ -112,47 +111,6 @@
 
     <!-- Dream block -->
 
-        <div id="s1" class="dream_block"> <!-- далее в названии классов как приставка "db" -->
-            <!-- title с названием блока и пузырями побокам используеться и в остальных подобных titlов блоков -->
-            <div class="db_title">
-                <span class="small_circle_title"></span>
-                <span class="big_circle_title"></span>
-                <h2 class="title">3 dreams</h2>
-                <span class="big_circle_title"></span>
-                <span class="small_circle_title"></span>
-            </div>
-
-
-            <!-- дивчик с карточками -->
-            <div class="db_cards">
-                <div class="db_card">
-                    <img class="marker" src="img/Heart.svg" alt="#">
-                    <!-- для img створюю обгортку, тому що ми задаємо параметри для обгорти, а img зазвичай просто width 100% -->
-                    <div class="db_card_pic">
-                        <img class="pic" src="img/dream1.png" alt="dream_pic1">
-                    </div>
-                    <p class="db_card_text">travel to Cuba</p>
-                </div>
-                <div class="db_card">
-                    <img class="marker" src="img/Heart.svg" alt="#">
-                    <div class="db_card_pic">
-                        <img class="pic" src="img/dream2.png" alt="dream_pic2">
-                    </div>
-                    <p class="db_card_text">world fame</p>
-                </div>
-                <div class="db_card">
-                    <img class="marker" src="img/Heart.svg" alt="#">
-                    <div class="db_card_pic">
-                        <img class="pic" src="img/dream3.png" alt="dream_pic3">
-                    </div>
-                    <p class="db_card_text">cozy art workshop</p>
-                </div>
-
-            </div>
-
-        </div>
-
-
         <div id="s1" class="content_block dream_block"> <!-- далее в названии классов как приставка "db" -->
             <!-- title с названием блока и пузырями побокам используеться и в остальных подобных titlов блоков -->
             <div class="content_title db_title">
@@ -166,25 +124,29 @@
 
             <!-- дивчик с карточками -->
             <div class="cards_container db_cards">
+
+
                 <div class="card_item db_card">
-                    <img class="marker" src="img/Heart.svg" alt="#">
+                    <img class="marker" src="/img/Heart.svg" alt="#">
                     <!-- для img створюю обгортку, тому що ми задаємо параметри для обгорти, а img зазвичай просто width 100% -->
                     <div class="card_pic_box db_card_pic">
-                        <img class="pic" src="img/dream1.png" alt="dream_pic1">
+                        <img class="pic" src="/img/dream1.png" alt="dream1">
                     </div>
                     <p class="card_text db_card_text">travel to Cuba</p>
                 </div>
+
                 <div class="card_item db_card">
-                    <img class="marker" src="img/Heart.svg" alt="#">
+                    <img class="marker" src="/img/Heart.svg" alt="#">
                     <div class="card_pic_box db_card_pic">
-                        <img class="pic" src="img/dream2.png" alt="dream_pic2">
+                        <img class="pic" src="/img/dream2.png" alt="dream2">
                     </div>
                     <p class="card_text db_card_text">world fame</p>
                 </div>
+
                 <div class="card_item db_card">
-                    <img class="marker" src="img/Heart.svg" alt="#">
+                    <img class="marker" src="/img/Heart.svg" alt="#">
                     <div class="card_pic_box db_card_pic">
-                        <img class="pic" src="img/dream3.png" alt="dream_pic3">
+                        <img class="pic" src="/img/dream3.png" alt="dream3">
                     </div>
                     <p class="card_text db_card_text">cozy art workshop</p>
                 </div>
@@ -252,37 +214,6 @@
 
     <!-- Good idea block -->
     
-        <div id="s3" class="good_idea_block">
-                <div class="db_title">
-                    <span class="small_circle_title"></span>
-                    <span class="big_circle_title"></span>
-                    <h2 class="title">3 always <span class="gi_title_span">good</span> idea</h2>
-                    <span class="big_circle_title"></span>
-                    <span class="small_circle_title"></span>
-                </div>
-
-                <!-- дивчик с карточками -->
-                <div class="gi_cards">             
-                    <div class="gi_card">
-                        <img class="marker" src="img/like.svg" alt="#">
-                        <img class="gi_card_pic" src="img/gi1.png" alt="good_idea_pic1">
-                        <p class="gi_card_text">candles</p>
-                    </div>
-                    <div class="gi_card">
-                        <img class="marker" src="img/like.svg" alt="#">
-                        <img class="gi_card_pic" src="img/gi2.png" alt="good_idea_pic2">
-                        <p class="gi_card_text">cute notebooks</p>
-                    </div>
-                    <div class="gi_card">
-                        <img class="marker" src="img/like.svg" alt="#">
-                        <img class="gi_card_pic" src="img/gi3.png" alt="good_idea_pic3">
-                        <p class="gi_card_text">money</p>
-                    </div>
-                </div>
-        </div>
-
-
-
         <div id="s3" class="content_block good_idea_block">
             <div class="content_title">
                 <span class="small_circle_title"></span>
@@ -320,38 +251,9 @@
             </div>
 
         </div>
+
+
     <!-- Bad idea block -->    
-
-        <div id="s4" class="bad_idea_block">
-            <div class="db_title">
-                <span class="small_circle_title"></span>
-                <span class="big_circle_title"></span>
-                <h2 class="bi_title title">3 always <span class="bi_title_span">bad</span> idea</h2>
-                <span class="big_circle_title"></span>
-                <span class="small_circle_title"></span>
-            </div>
-
-            <!-- дивчик с карточками -->
-
-            <div class="bi_cards">
-                <div class="bi_card">
-                    <img class="marker" src="img/dislike.svg" alt="#">
-                    <img class="bi_card_pic" src="img/bi_pic1.png" alt="bad_idea_pic1">
-                    <p class="bi_card_text">souvenirs</p>
-                </div>
-                <div class="bi_card">
-                    <img class="marker" src="img/dislike.svg" alt="#">
-                    <img class="bi_card_pic" src="img/bi_pic2.png" alt="bad_idea_pic2">
-                    <p class="bi_card_text">stuffed toys</p>
-                </div>
-                <div class="bi_card">
-                    <img class="marker" src="img/dislike.svg" alt="#">
-                    <img class="bi_card_pic" src="img/bi_pic3.png" alt="bad_idea_pic3">
-                    <p class="bi_card_text">sweets</p>
-                </div>
-            </div>
-        </div>
-
 
         <div id="s4" class="content_block bad_idea_block">
             <div class="content_title">
@@ -511,7 +413,7 @@
 
         </div>
     </div>
-    <!-- Подключаю файл JS скрипта для меню -->
+    <!-- Подключаю файл JS скрипта для счетчика -->
     <script src="js/counter.js" type="text/javascript"></script>
 </body>
 </html>
