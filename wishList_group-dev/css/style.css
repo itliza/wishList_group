@@ -42,6 +42,7 @@
 
 .main_screen {
     display: flex;
+    margin-top: 120px;
 }
 .ms_pic img {
     width: 560px;
@@ -234,4 +235,49 @@
     position: absolute;
     top: 30px;
     left: 28px;
+}
+
+
+/* HEADER */
+.menu_full {
+    background: linear-gradient(180deg, #FFF1F2 0%, #FFFFFF 75.83%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: center;    
+    
+}
+.menu_title {
+    font-family: 'Baloo 2';
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FC6A57;
+}
+.navigation {
+    display: flex;
+}
+.nav_link {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FC6A57;
+    text-decoration: none;
+    padding: 9px 20px;
+    margin-left: 10px;
+}
+.nav_link:hover {
+    padding: 9px 20px;
+    background-color: #FC6A57;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 10px;
 }
