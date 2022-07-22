@@ -12,8 +12,8 @@
 
 .content_block{
     width: 100%;
-    margin: 100px 0 0 0;
-    padding: 59px 81px 0;
+    
+    padding: 59px 81px 100px;
     
 }
 
@@ -220,6 +220,38 @@
     left: 28px;
 }
 
+.good_idea_block{
+    background-color: #FFF5F5;
+}
+
+.gi_title{
+    color: #FC6A57;
+}
+
+
+
+.gi_card_text{
+    color: #FC6A57;
+}
+
+.bi_title{
+    color: #1F3865;
+}
+
+.bi_card_text{
+    color: #1F3865;
+}
+
+.card_item.bi_card:hover{
+    border: 1px solid #1F3865;
+    background-color: #1F3865; 
+    padding: 0 0 40px 0;
+}
+
+
+.uppercase_decoration{
+    text-transform: uppercase;
+}
 
 /* HEADER */
 
