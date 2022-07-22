@@ -407,3 +407,25 @@
 .card_pic {
     width: 100%;
 }
+
+
+/* FOOTER */
+body {
+    position: relative;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 160px;
+    padding-bottom: 40px;
+}
+.footer_contacts .msc_item {
+    background: none;
+}
+.bg_footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
