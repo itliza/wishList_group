@@ -347,3 +347,18 @@
     left: 28px;
     z-index: 100;
 } */
+
+/* WISHLIST */
+
+.wishlist_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wish_pic_box {
+    width: 386px;
+    height: 386px;
+}
+.card_pic {
+    width: 100%;
+}
