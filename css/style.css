@@ -90,13 +90,17 @@
     color: #FC6A57;
     padding: 50px 40px;
 }
-.ms_counter_date {
+.ms_counter_date{
     display: flex;
     font-family: 'Baloo 2';
     font-weight: 800;
     font-size: 30px;
     line-height: 48px;
     color: #FC6A57;
+    justify-content: center;
+}
+.ms_counter_date p {
+    margin-right: 5px;
 }
 
 
@@ -263,11 +267,12 @@
 }
 .menu_full {
     background: linear-gradient(180deg, #FFF1F2 0%, #FFFFFF 75.83%);
+    width: 100%;
     position: fixed;
     z-index: 999999;
     top: 0;
     left: 0;
-    width: 100%;
+    
 }
 .menu {
     display: flex;
@@ -379,10 +384,7 @@
 
 /* WISHLIST */
 
-.wishlist_block {
-    background: #FFF5F5;
-    mix-blend-mode: multiply;
-}
+
 .wishlist_block .title{
     color: #FC6A57;
 }
@@ -445,6 +447,7 @@
 /* FOOTER */
 body {
     position: relative;
+
 }
 .footer {
     display: flex;
@@ -453,6 +456,8 @@ body {
     margin-top: 160px;
     padding-bottom: 40px;
     position: relative;
+    overflow: hidden;
+
 }
 .footer_contacts .msc_item {
     background: none;
@@ -460,7 +465,6 @@ body {
 .bg_footer {
     position: absolute;
     left: 39%;
-    /* transform: translate(-50%, 0); */
     bottom: -150px;
 }
 .big_circle {
@@ -470,6 +474,7 @@ body {
     mix-blend-mode: multiply;
     border-radius: 50%;
     position: relative;
+    
 }
 .small_circle {
     width: 167px;
@@ -481,4 +486,10 @@ body {
     right: 0;
     top: 0;
     z-index: 10;
+
+}
+
+.full {
+    background-color: #FFF5F5;
+    width: 100%;
 }

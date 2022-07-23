@@ -59,8 +59,8 @@
     </header>
     
     <div class="wrapper">
-    <div class="line"></div>
-    <!-- Главный блок страницы с счетчиком, разделил его на левую и правую часть для дальнейшей организации flex -->
+        <div class="line"></div>
+        <!-- Главный блок страницы с счетчиком, разделил его на левую и правую часть для дальнейшей организации flex -->
 
         <div class="main_screen">  <!-- далее в названии классов как приставка "ms" -->
 
@@ -104,13 +104,19 @@
                         <p class="ms_counter_title">
                             My Birthday’s only
                         </p>
-                        <h3 id="counter" class="ms_counter_date"></h3>
-                        <!-- <meta class="ms_counter_date" name="viewport" content="width=device-width, initial-scale=1"> -->
+                        <div id="counter" class="ms_counter_date">
                             <p id="days"></p>
                             <p id="hours"></p>
                             <p id="mins"></p>
                             <p id="secs"></p>
-                            <div id="end"></div>
+                            <p id="end"></p>
+                        </div>
+                        <!-- <meta class="ms_counter_date" name="viewport" content="width=device-width, initial-scale=1"> -->
+                            <!-- <p id="days"></p>
+                            <p id="hours"></p>
+                            <p id="mins"></p>
+                            <p id="secs"></p>
+                            <p id="end"></p> -->
                         <!--<h3 id="counter" class="ms_counter_date"></h3> -->
                     </div>        
                     <div>
@@ -121,7 +127,7 @@
                 </div>
             </div>
         </div>
-
+    
 
     <!-- Dream block -->
 
@@ -224,51 +230,55 @@
             </div>
         </div>
 
-        
+    </div>    
 
     <!-- Good idea block -->
     
-        <div id="s3" class="content_block good_idea_block">
-            <div class="content_title gi_title">
-                <span class="small_circle_title"></span>
-                <span class="big_circle_title"></span>
-                <h2 class="title">3 always <span class="uppercase_decoration">good</span> idea</h2>
-                <span class="big_circle_title"></span>
-                <span class="small_circle_title"></span>
+        <div class="full">
+            <div class="wrapper">
+                <div id="s3" class="content_block good_idea_block">
+                    <div class="content_title gi_title">
+                        <span class="small_circle_title"></span>
+                        <span class="big_circle_title"></span>
+                        <h2 class="title">3 always <span class="uppercase_decoration">good</span> idea</h2>
+                        <span class="big_circle_title"></span>
+                        <span class="small_circle_title"></span>
+                    </div>
+        
+        
+                    <!-- дивчик с карточками -->
+                    <div class="cards_container gi_cards">
+                        <div class="card_item gi_card">
+                            <img class="marker" src="img/like.svg" alt="#">
+                            <div class="card_pic_box gi_card_pic">
+                                <img class="pic" src="img/gi1.png" alt="good_idea_pic1">
+                            </div>
+                            <p class="card_text gi_card_text">candles</p>
+                        </div>
+                        <div class="card_item gi_card">
+                            <img class="marker" src="img/like.svg" alt="#">
+                            <div class="card_pic_box gi_card_pic">
+                                <img class="pic" src="img/gi2.png" alt="good_idea_pic2">
+                            </div>
+                            <p class="card_text gi_card_text">cute notebooks</p>
+                        </div>
+                        <div class="card_item gi_card">
+                            <img class="marker" src="img/like.svg" alt="#">
+                            <div class="card_pic_box gi_card_pic">
+                                <img class="pic" src="img/gi3.png" alt="good_idea_pic3">
+                            </div>
+                            <p class="card_text gi_card_text">money</p>
+                        </div>
+        
+                    </div>
+        
+                </div>
             </div>
-
-
-            <!-- дивчик с карточками -->
-            <div class="cards_container gi_cards">
-                <div class="card_item gi_card">
-                    <img class="marker" src="img/like.svg" alt="#">
-                    <div class="card_pic_box gi_card_pic">
-                        <img class="pic" src="img/gi1.png" alt="good_idea_pic1">
-                    </div>
-                    <p class="card_text gi_card_text">candles</p>
-                </div>
-                <div class="card_item gi_card">
-                    <img class="marker" src="img/like.svg" alt="#">
-                    <div class="card_pic_box gi_card_pic">
-                        <img class="pic" src="img/gi2.png" alt="good_idea_pic2">
-                    </div>
-                    <p class="card_text gi_card_text">cute notebooks</p>
-                </div>
-                <div class="card_item gi_card">
-                    <img class="marker" src="img/like.svg" alt="#">
-                    <div class="card_pic_box gi_card_pic">
-                        <img class="pic" src="img/gi3.png" alt="good_idea_pic3">
-                    </div>
-                    <p class="card_text gi_card_text">money</p>
-                </div>
-
-            </div>
-
         </div>
 
-
+    
     <!-- Bad idea block -->    
-
+    <div class="wrapper">
         <div id="s4" class="content_block bad_idea_block">
             <div class="content_title bi_title">
                 <span class="small_circle_title"></span>
@@ -306,126 +316,129 @@
             </div>
 
         </div>
+    </div>
+
+        <!-- Wishlist block -->    
 
 
-    <!-- Wishlist block -->    
-
-
-        <div id="s5" class="content_block wishlist_block">
-            <div class="content_title">
-                <span class="small_circle_title"></span>
-                <span class="big_circle_title"></span>
-                <h2 class="title">wishlist</h2>
-                <span class="big_circle_title"></span>
-                <span class="small_circle_title"></span>
+    <div class="full">
+        <div class="wrapper">
+            <div id="s5" class="content_block wishlist_block">
+                <div class="content_title">
+                    <span class="small_circle_title"></span>
+                    <span class="big_circle_title"></span>
+                    <h2 class="title">wishlist</h2>
+                    <span class="big_circle_title"></span>
+                    <span class="small_circle_title"></span>
+                </div>
+    
+                <!-- дивчик с карточками -->
+    
+                <div class="wishlist_cards">
+                    <div class="wishlist_card"> 
+                        <!-- додаю батьківський контейнер на зображення -->
+                        <div class="wish_pic_box"> 
+                            <img class="card_pic" src="img/wishlist_pic1.png" alt="#">
+                        </div>
+                        <div class="wishlist_card_hov"> 
+                            <p class="bold_text">Yves Saint Laurent Black Opium</p>
+                            <img src="img/gift.svg" alt="#" width="32" height="32">
+                            <a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a>
+                        </div>
+                    </div>
+    
+                    <div class="wishlist_card">
+                        <div class="wish_pic_box">
+                            <img class="card_pic" src="img/wishlist_pic2.png" alt="#">
+                        </div>
+                        <div class="wishlist_card_hov">
+                            <p class="bold_text">Yves Saint Laurent Black Opium</p>
+                            <img src="img/gift.svg" alt="#" width="32" height="32">
+                            <a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a>
+                        </div>
+                    </div>
+    
+                    <div class="wishlist_card">
+                        <div class="wish_pic_box">
+                            <img class="card_pic" src="img/wishlist_pic3.png" alt="#">
+                        </div>
+                        <div class="wishlist_card_hov">
+                            <p class="bold_text">Yves Saint Laurent Black Opium</p>
+                            <img src="img/gift.svg" alt="#" width="32" height="32">
+                            <a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a>
+                        </div>
+                    </div>
+    
+                    <div class="wishlist_card">
+                        <div class="wish_pic_box">
+                            <img class="card_pic" src="img/wishlist_pic4.png" alt="#">
+                        </div>
+                        <div class="wishlist_card_hov">
+                            <p class="bold_text">Yves Saint Laurent Black Opium</p>
+                            <img src="img/gift.svg" alt="#" width="32" height="32">
+                            <a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a>
+                        </div>
+                    </div>
+    
+                    <div class="wishlist_card">
+                        <div class="wish_pic_box">
+                            <img class="card_pic" src="img/wishlist_pic5.png" alt="#">
+                        </div>
+                        <div class="wishlist_card_hov">
+                            <p class="bold_text">Yves Saint Laurent Black Opium</p>
+                            <img src="img/gift.svg" alt="#" width="32" height="32">
+                            <a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a>
+                        </div>
+                    </div>
+    
+                    <div class="wishlist_card">
+                        <div class="wish_pic_box">
+                            <img class="card_pic" src="img/wishlist_pic6.png" alt="#">
+                        </div>
+                        <div class="wishlist_card_hov">
+                            <p class="bold_text">Yves Saint Laurent Black Opium</p>
+                            <img src="img/gift.svg" alt="#" width="32" height="32">
+                            <a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- footer подтягиваю контент с headera-->
+    
+                <div class="footer">
+                    <h3 class="menu_title nav_title">
+                        My wishes
+                    </h3>
+                    <!-- <div class="footer_contacts">
+                        <div class="msc_icon"><a href="#"><img src="img/fb_icon.svg" alt="fb_icon"></a></div>
+                        <div class="msc_icon"><a href=""><img src="img/insta_icon.svg" alt="insta_icon"></a></div>
+                    </div> -->
+     
+                    <!-- для соціальних мереж я взяла код зверху, але там вони будуть трохи відрізнятися (на хедері є бекграунд), можна буде вже в самому кінці клас додати -->
+    
+                    <ul class="main_screen_contacts footer_contacts">
+                        <li class="msc_item">
+                            <a href="" class="msc_link">
+                                <img src="img/fb_icon.svg" alt="fb_icon" class="msc_icon">
+                            </a>
+                        </li>
+                        <li class="msc_item">
+                            <a href="" class="msc_link">
+                                <img src="img/insta_icon.svg" alt="insta_icon" class="msc_icon">
+                            </a>
+                        </li>
+                    </ul>
+                
+                </div>
+    
+                <!-- background с пузырями -->
+                <div class="bg_footer">
+                    <div class="big_circle">
+                        <div class="small_circle"></div>
+                    </div>
+                </div>
+    
             </div>
-
-            <!-- дивчик с карточками -->
-
-            <div class="wishlist_cards">
-                <div class="wishlist_card"> 
-                    <!-- додаю батьківський контейнер на зображення -->
-                    <div class="wish_pic_box"> 
-                        <img class="card_pic" src="img/wishlist_pic1.png" alt="#">
-                    </div>
-                    <div class="wishlist_card_hov"> 
-                        <p class="bold_text">Yves Saint Laurent Black Opium</p>
-                        <img src="img/gift.svg" alt="#" width="32" height="32">
-                        <a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a>
-                    </div>
-                </div>
-
-                <div class="wishlist_card">
-                    <div class="wish_pic_box">
-                        <img class="card_pic" src="img/wishlist_pic2.png" alt="#">
-                    </div>
-                    <div class="wishlist_card_hov">
-                        <p class="bold_text">Yves Saint Laurent Black Opium</p>
-                        <img src="img/gift.svg" alt="#" width="32" height="32">
-                        <a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a>
-                    </div>
-                </div>
-
-                <div class="wishlist_card">
-                    <div class="wish_pic_box">
-                        <img class="card_pic" src="img/wishlist_pic3.png" alt="#">
-                    </div>
-                    <div class="wishlist_card_hov">
-                        <p class="bold_text">Yves Saint Laurent Black Opium</p>
-                        <img src="img/gift.svg" alt="#" width="32" height="32">
-                        <a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a>
-                    </div>
-                </div>
-
-                <div class="wishlist_card">
-                    <div class="wish_pic_box">
-                        <img class="card_pic" src="img/wishlist_pic4.png" alt="#">
-                    </div>
-                    <div class="wishlist_card_hov">
-                        <p class="bold_text">Yves Saint Laurent Black Opium</p>
-                        <img src="img/gift.svg" alt="#" width="32" height="32">
-                        <a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a>
-                    </div>
-                </div>
-
-                <div class="wishlist_card">
-                    <div class="wish_pic_box">
-                        <img class="card_pic" src="img/wishlist_pic5.png" alt="#">
-                    </div>
-                    <div class="wishlist_card_hov">
-                        <p class="bold_text">Yves Saint Laurent Black Opium</p>
-                        <img src="img/gift.svg" alt="#" width="32" height="32">
-                        <a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a>
-                    </div>
-                </div>
-
-                <div class="wishlist_card">
-                    <div class="wish_pic_box">
-                        <img class="card_pic" src="img/wishlist_pic6.png" alt="#">
-                    </div>
-                    <div class="wishlist_card_hov">
-                        <p class="bold_text">Yves Saint Laurent Black Opium</p>
-                        <img src="img/gift.svg" alt="#" width="32" height="32">
-                        <a href="https://www.brocard.ua/ru/product/parfyumirovannaya-voda-yves-saint-laurent-black-opium-90-ml-001059">Buy!</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- footer подтягиваю контент с headera-->
-
-            <div class="footer">
-                <h3 class="menu_title nav_title">
-                    My wishes
-                </h3>
-                <!-- <div class="footer_contacts">
-                    <div class="msc_icon"><a href="#"><img src="img/fb_icon.svg" alt="fb_icon"></a></div>
-                    <div class="msc_icon"><a href=""><img src="img/insta_icon.svg" alt="insta_icon"></a></div>
-                </div> -->
- 
-                <!-- для соціальних мереж я взяла код зверху, але там вони будуть трохи відрізнятися (на хедері є бекграунд), можна буде вже в самому кінці клас додати -->
-
-                <ul class="main_screen_contacts footer_contacts">
-                    <li class="msc_item">
-                        <a href="" class="msc_link">
-                            <img src="img/fb_icon.svg" alt="fb_icon" class="msc_icon">
-                        </a>
-                    </li>
-                    <li class="msc_item">
-                        <a href="" class="msc_link">
-                            <img src="img/insta_icon.svg" alt="insta_icon" class="msc_icon">
-                        </a>
-                    </li>
-                </ul>
-            
-            </div>
-
-            <!-- background с пузырями -->
-            <div class="bg_footer">
-                <div class="big_circle">
-                    <div class="small_circle"></div>
-                </div>
-            </div>
-
         </div>
     </div>
     <!-- Подключаю файл JS скрипта для счетчика -->
