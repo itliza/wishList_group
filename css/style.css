@@ -67,6 +67,9 @@
     text-align: center;
     padding: 13px 0;
 }
+.main_screen .msc_item:not(:last-child) {
+    margin-right: 10px;
+}
 .main_screen_contacts {
     display: flex;
 }
