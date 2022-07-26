@@ -519,7 +519,7 @@ body {
     position: absolute;
     left: 394px;
     top: 0px;
-    clip-path: inset(0px 0px 150px);
+    /*clip-path: inset(0px 0px 150px);*/
 }
 
 .small_circle {
