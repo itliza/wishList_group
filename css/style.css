@@ -376,44 +376,35 @@
     font-size: 40px;
     color: #FC6A57;
 }
+
 .bb_cards {
-    display: flex;
-    justify-content: space-between;
+   /* display: flex;
+    justify-content: space-between;*/
 }
+
 .bb_card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 6px;
     width: 200px;
-    height: 300px;
+    height: 270px;
+    padding: 20px;
 }
+
 .bb_card:not(:last-child) {
     /* margin-right: 70px; */
 }
+
 .bb_card_pic {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     margin-bottom: 40px;
 }
-.bb_card_pic img {
-    width: 100%;
-}
+
 .bb_card_text {
     color: #FC6A57;
     font-family: 'Nunito';
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
-}
-.card_item:hover .bb_card_text{
-    color: #FFFFFF;
-}
-
-/* .card_item:hover{
-    border: 1px solid #FC6A57;
-    background-color: #FC6A57; 
-    padding: 0 0 40px 0;
+    text-align: center;
 }
 
 .card_item:hover .bb_card_text{
@@ -421,25 +412,20 @@
 }
 
 .card_item:hover .bb_card_pic{
-    /* width: 200px; 
-    height: 270px; */
-   /* object-fit: cover; */
-  
-/* }
-.card_item:hover .pic{
-    border: 1px solid transparent;
-    border-radius: 6px 6px 0 0;
-}  */
+    width: 198px;
+    height: 200px;
+    margin-bottom: 20px;
+}
 
-
-/* .card_item:hover .marker{
+.card_item.bb_card:hover .marker{
     display: block;
-    width: 32px;
+    width: 28px;
+    height: 27px;
     position: absolute;
-    top: 30px;
-    left: 28px;
-    z-index: 100;
-} */
+    top: 20px;
+    left: 20px;
+}
+
 
 /* WISHLIST */
 
