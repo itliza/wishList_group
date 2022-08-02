@@ -337,7 +337,7 @@
 .menu {
     display: flex;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 40px;
     align-items: center;    
     
 }
@@ -429,7 +429,7 @@
 
 /* WISHLIST */
 .wishlist_block{
-    padding: 150px 0 0;
+    padding: 150px 40px 0;
 }
 
 .wishlist_block .title{
@@ -440,6 +440,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* justify-content: center; */
     margin: 0 -30px;
 }
 .wishlist_card {
@@ -502,7 +503,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 140px 0 40px;
+    padding: 140px 40px 40px;
     /*margin-top: 100px;*/
     /*padding-bottom: 40px;*/
     position: relative;

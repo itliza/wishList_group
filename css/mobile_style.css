@@ -13,4 +13,7 @@
         .card_item{
             margin-bottom: 30px;
         }
+        .wishlist_cards {
+            justify-content: center;
+        }
     }   
