@@ -16,4 +16,32 @@
         .wishlist_cards {
             justify-content: center;
         }
+
+
+
+        .ms_r_side {
+            /* width: 640px; */
+            margin: 0 0 0 20px;
+        }
+        .ms_pic {
+            width: 600px;
+            height: 600px;
+            background: url("../img/bg_bubbles.svg") no-repeat left / auto;
+            background-size: 510px;
+        }
+        .ms_pic img {
+            margin: 90px 70px 70px 110px;
+            width: 420px;
+        }
+        .msc_item {
+            margin: 0 20px;
+        }
+        .ms_title {
+            font-size: 70px;
+            line-height: 128px;
+        }
+        .ms_text {
+            font-size: 19px;
+            line-height: 28px;   
+        }
     }   
