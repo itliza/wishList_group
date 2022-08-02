@@ -13,7 +13,7 @@
 .content_block{
     width: 100%;
     /* padding: 59px 81px 100px; */
-    padding: 150px 0px 100px;
+    padding: 150px 80px 100px;
 
     
 }
@@ -337,7 +337,7 @@
 .menu {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 40px 80px;
     align-items: center;    
     
 }
@@ -429,7 +429,7 @@
 
 /* WISHLIST */
 .wishlist_block{
-    padding: 150px 40px 0;
+    padding: 150px 80px 0;
 }
 
 .wishlist_block .title{
