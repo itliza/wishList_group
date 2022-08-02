@@ -4,13 +4,13 @@
 
     and (max-width: 1350px) {
 
-.cards_container{
-    padding: 0 70px;
-    flex-wrap: wrap;  
-    justify-content: space-around;  
-}
+        .cards_container{
+            padding: 0 70px;
+            flex-wrap: wrap;  
+            justify-content: space-around;  
+        }
 
-.card_item{
-    margin-bottom: 30px;
-}
-}
+        .card_item{
+            margin-bottom: 30px;
+        }
+    }   
