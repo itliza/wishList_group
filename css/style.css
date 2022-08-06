@@ -558,3 +558,14 @@ body {
     background-color: #FFF5F5;
     width: 100%;
 }
+.link_for_mob {
+    display: none;
+    color: #FC6A57;
+    font-size: 16px;
+    line-height: 1.37;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.footer_list {
+    display: none;
+}
