@@ -12,10 +12,7 @@
 
 .content_block{
     width: 100%;
-    /* padding: 59px 81px 100px; */
     padding: 150px 80px 100px;
-
-    
 }
 
 .content_title{
@@ -52,14 +49,10 @@
 
 }
 .ms_pic {
-    /*width: 640px;
-    height: 640px;*/
     width: 460px;
     margin: 83px 0 32px 100px;
-    /*background: url("../img/bg_bubbles.svg") no-repeat left / auto;*/
 }
 .ms_pic img {
-    /*margin: 100px 80px 80px 100px;*/
     width: 100%;
     border-radius: 50%;
 }
@@ -71,12 +64,9 @@
 
 .ms_r_side {
     width: 50%;
-    /*margin: 0 0 0 80px;*/
     margin-top: 100px;
-    /*flex: 0 0 50%;*/
     display: flex;
     flex-direction: column;
-    /*align-self: flex-end;*/
 }
 .msc_item {
     width: 48px;
@@ -106,6 +96,10 @@
     background: #FFF5F5;
     border-radius: 50%;
     margin-right: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 .ms_conter_b1::after {
     content: 'away';
@@ -132,26 +126,6 @@
     font-size: 20px;
     line-height: 27px;
     color: #FC6A57;
-    padding: 120px 75px 0 75px;
-    
-}
-.ms_conter_b2 {
-    /* width: 130px;
-    height: 130px;
-    background: #FFF5F5;
-    border-radius: 50%;
-    font-family: 'Nunito';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #FC6A57;
-    padding: 50px 40px; */
-    
-    /* font-family: 'Nunito';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #FC6A57; */
 }
 .ms_counter_date{
     display: flex;
@@ -165,22 +139,6 @@
 .ms_counter_date p {
     margin-right: 5px;
 }
-.ms_counter_small-bubble {
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* left: 250px; */
-    /* right: 0; */
-    
-    /* width: 130px;
-    height: 130px;
-    background: #FFF5F5;
-    padding: 50px 40px;
-    border-radius: 50%;
-    mix-blend-mode: multiply; */
-}
-
-
-
 .ms_title {
     font-family: 'Baloo 2';
     font-weight: 800;
@@ -395,21 +353,12 @@
     color: #FC6A57;
 }
 
-.bb_cards {
-   /* display: flex;
-    justify-content: space-between;*/
-}
 
 .bb_card {
     width: 200px;
     height: 270px;
     padding: 20px;
 }
-
-.bb_card:not(:last-child) {
-    /* margin-right: 70px; */
-}
-
 .bb_card_pic {
     width: 160px;
     height: 160px;
@@ -458,17 +407,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* justify-content: center; */
     margin: 0 -30px;
 }
 .wishlist_card {
     position: relative;
-    /* margin-bottom: 60px; */
     margin: 30px;
 }
-/* .wishlist_card:not(:nth-child(3n)){
-    margin-right: 60px;
-} */
 .wish_pic_box, .wishlist_card_hov {
     width: 386px;
     height: 386px;
@@ -522,8 +466,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 140px 40px 40px;
-    /*margin-top: 100px;*/
-    /*padding-bottom: 40px;*/
     position: relative;
     overflow: hidden;
 }
@@ -540,7 +482,6 @@ body {
     position: absolute;
     left: 394px;
     top: 0px;
-    /*clip-path: inset(0px 0px 150px);*/
 }
 
 .small_circle {
