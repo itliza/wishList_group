@@ -13,29 +13,72 @@
         .card_item{
             margin: 0 30px 30px 30px;
         }
+
         .wishlist_cards {
             justify-content: center;
         }
 
+        .content_block{
+           padding-top: 50px;
+        }
+
         .main_screen {
             display: flex;
-            flex-direction: column;
+            flex: 1 0 100%;
             margin-top: 120px;
             justify-content: space-between;
             align-items: center;
             padding: 0 80px;
         }
         .ms_l_side{
-            width: 100%;
+            flex: 0 0 50%;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            background: url("../img/bg_bubbles.svg") no-repeat center / auto;
+            justify-content: flex-end;
+            background: url("../img/bg_bubbles.svg") no-repeat left;
+            background-size: contain;
+        }
+
+        .ms_pic {
+            width: 71%;
+            margin: 12% 0 5% 15.6%;
+        }
+
+        .main_screen_contacts {
+            
         }
 
         .ms_r_side{
-            width: 100%;
+            flex: 0 0 50%;
         }
+
+        .cards_container{
+            display: flex;
+            justify-content: center;
+        }
+
+        .ms_title {
+            font-size: 60px;
+            line-height: 80px;
+           
+        }
+
+        .ms_text {
+            font-size: 18px;
+            line-height: 20px;
+       
+        }
+
+       
+        .ms_conter_b1{
+            transform: scale(0.85);
+           }
+
+        .ms_conter_b1::after{
+            transform: scale(0.85);
+        }
+
+        
     }   
 
     
