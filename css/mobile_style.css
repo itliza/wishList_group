@@ -288,6 +288,7 @@
         }
 
         .card_item:hover .bb_card_text{
+            margin-left: 16px;
             color: #FFFFFF;
         }
         
