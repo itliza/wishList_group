@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.content_block{
+    width: 100%;
+    padding: 150px 80px 100px;
+}
+.content_title{
+    margin-bottom: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin: 0 15px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 64px;
+    text-align: center;
+}
+.db_title{
+    color: #FC6A57;
+}
+.main_screen {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+.ms_l_side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 50%;
+    background: url("../img/bg_bubbles.svg") no-repeat left;
+}
+.ms_pic {
+    width: 71%;
+    margin: 12% 0 5% 15.6%;
+}
+.ms_pic img {
+    width: 100%;
+    border-radius: 50%;
+}
+.ms_l_side .menu_title{
+    display: none;
+}
+.ms_r_side {
+    width: 50%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.msc_item {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background: #FFF5F5;
+    text-align: center;
+    padding: 13px 0;
+}
+.main_screen .msc_item:not(:last-child) {
+    margin-right: 10px;
+}
+.main_screen_contacts {
+    display: flex;
+}
+.ms_counter {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.ms_conter_b1 {
+    width: 318px;
+    height: 318px;
+    background: #FFF5F5;
+    border-radius: 50%;
+    margin-right: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.ms_conter_b1::after {
+    content: 'away';
+    width: 130px;
+    height: 130px;
+    background: #FFF5F5;
+    border-radius: 50%;
+    display: flex;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FC6A57;
+    mix-blend-mode: multiply;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+.ms_counter_title {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FC6A57;
+}
+.ms_counter_date{
+    display: flex;
+    font-family: 'Baloo 2';
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FC6A57;
+    justify-content: center;
+}
+.ms_counter_date p {
+    margin-right: 5px;
+}
+.ms_title {
+    font-family: 'Baloo 2';
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 128px;
+    color: #FC6A57;
+}
+.ms_text {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FC6A57;
+}
+.small_circle_title{
+    margin: 0 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FFF5F5;
+    mix-blend-mode: multiply;
+
+}
+.big_circle_title{
+    margin: 0 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FFF5F5;
+    mix-blend-mode: multiply
+}
+.cards_container{
+    display: flex;
+    justify-content: space-between;
+}
+.card_item{
+    width: 386px;
+    height: 330px;
+    border: 1px solid transparent;
+    border-radius: 6px;    
+    padding: 30px 30px 40px 30px;
+    position: relative;
+}
+.db_card{   
+    background-color: #FFF5F5;
+}
+.card_pic_box{
+    width: 326px;
+    height: 200px;  
+}
+.pic{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.card_text{   
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 30px;
+}
+.db_card_text{
+    color: #FC6A57;
+}
+.marker{
+    display: none;
+}
+.card_item:hover{
+    border: 1px solid #FC6A57;
+    background-color: #FC6A57; 
+    padding: 0 0 40px 0;
+}
+.card_item:hover .card_text{
+    color: #FFFFFF;
+}
+.card_item:hover .card_pic_box{
+   width: 384px;
+   height: 230px;  
+}
+.card_item:hover .pic{
+    border: 1px solid transparent;
+    border-radius: 6px 6px 0 0;
+}
+.card_item:hover .marker{
+    display: block;
+    width: 32px;
+    position: absolute;
+    top: 30px;
+    left: 28px;
+}
+.good_idea_block{
+    background-color: #FFF5F5;
+}
+.gi_title{
+    color: #FC6A57;
+}
+.gi_card_text{
+    color: #FC6A57;
+}
+.bi_title{
+    color: #1F3865;
+}
+.bi_card{
+    background-color: #FFF5F5;
+}
+.bi_card_text{
+    color: #1F3865;
+}
+.card_item.bi_card:hover{
+    border: 1px solid #1F3865;
+    background-color: #1F3865; 
+    padding: 0 0 40px 0;
+}
+.uppercase_decoration{
+    text-transform: uppercase;
+}
+
+/* HEADER */
+
+.line {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 999999;
+    top: 128px;
+    left: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+.menu_full {
+    background: linear-gradient(rgba(255, 241, 242, 1), rgba(255, 255, 255, 0.5));
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;  
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    align-items: center;    
+}
+.menu_title {
+    font-family: 'Baloo 2';
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FC6A57;
+}
+.navigation {
+    display: flex;
+}
+.nav_link {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FC6A57;
+    text-decoration: none;
+    padding: 9px 20px;
+    margin-left: 10px;
+}
+.nav_link:hover {
+    padding: 9px 20px;
+    background-color: #FC6A57;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+/* BRANDS */
+
+.bb_title{
+    color: #FC6A57;
+}
+.bb_card {
+    width: 200px;
+    height: 270px;
+    padding: 20px;
+}
+.bb_card_pic {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 40px;
+}
+.bb_card_text {
+    color: #FC6A57;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+}
+.card_item:hover .bb_card_text{
+    color: #FFFFFF;
+}
+.card_item:hover .bb_card_pic{
+    width: 198px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.card_item.bb_card:hover .marker{
+    display: block;
+    width: 28px;
+    height: 27px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* WISHLIST */
+.wishlist_block{
+    padding: 150px 80px 0;
+}
+
+.wishlist_block .title{
+    color: #FC6A57;
+}
+
+.wishlist_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -30px;
+}
+.wishlist_card {
+    position: relative;
+    margin: 30px;
+}
+.wish_pic_box, .wishlist_card_hov {
+    width: 386px;
+    height: 386px;
+}
+.wishlist_card_hov {
+    background: linear-gradient(0deg, rgba(252, 106, 87, 0.8), rgba(252, 106, 87, 0.8)), url(.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 57px 30px;
+    text-align: center;
+    display: none;
+}
+.wishlist_card:hover .wishlist_card_hov {
+    display: block;
+}
+.bold_text {
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 120%;
+}
+.wishlist_card_hov .bold_text {
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.wishlist_card_hov img {
+    margin-bottom: 63px;
+}
+.wishlist_card_hov a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    display: block;
+}
+.card_pic {
+    width: 100%;
+}
+
+/* FOOTER */
+
+body {
+    position: relative;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 140px 40px 40px;
+    position: relative;
+    overflow: hidden;
+}
+.footer_contacts .msc_item {
+    background: none;
+}
+
+.big_circle {
+    width: 408px;
+    height: 408px;
+    background: #FFF5F5;
+    mix-blend-mode: multiply;
+    border-radius: 50%;
+    position: absolute;
+    left: 394px;
+    top: 0px;
+}
+.small_circle {
+    width: 167px;
+    height: 167px;
+    background: #FFF5F5;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    position: absolute;
+    left: 718px;
+    top: 0px;  
+}
+.full {
+    background-color: #FFF5F5;
+    width: 100%;
+}
+.link_for_mob {
+    display: none;
+    color: #FC6A57;
+    font-size: 16px;
+    line-height: 1.37;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.footer_list {
+    display: none;
+}
