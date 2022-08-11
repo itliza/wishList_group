@@ -1,27 +1,20 @@
-/* Подключаем шрифт baloo 2, extra bold 800 */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
-
-/* Подключаем шрифт ninito, regular 400 */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
 
 .wrapper{
     max-width: 1440px;
     margin: 0 auto;
 }
-
 .content_block{
     width: 100%;
     padding: 150px 80px 100px;
 }
-
 .content_title{
     margin-bottom: 39px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .title{
     margin: 0 15px;
     font-family: 'Baloo 2', cursive;
@@ -30,26 +23,21 @@
     line-height: 64px;
     text-align: center;
 }
-
 .db_title{
     color: #FC6A57;
 }
-
 .main_screen {
     display: flex;
     margin-top: 120px;
     justify-content: space-between;
     padding: 0 80px;
 }
-
 .ms_l_side{
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex: 0 0 50%;
-   
     background: url("../img/bg_bubbles.svg") no-repeat left;
-
 }
 .ms_pic {
     width: 71%;
@@ -59,12 +47,9 @@
     width: 100%;
     border-radius: 50%;
 }
-
 .ms_l_side .menu_title{
     display: none;
 }
-
-
 .ms_r_side {
     width: 50%;
     margin-top: 100px;
@@ -92,7 +77,6 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
-
 .ms_conter_b1 {
     width: 318px;
     height: 318px;
@@ -157,7 +141,6 @@
     line-height: 28px;
     color: #FC6A57;
 }
-
 .small_circle_title{
     margin: 0 15px;
     width: 20px;
@@ -167,7 +150,6 @@
     mix-blend-mode: multiply;
 
 }
-
 .big_circle_title{
     margin: 0 15px;
     width: 30px;
@@ -175,14 +157,11 @@
     border-radius: 50%;
     background-color: #FFF5F5;
     mix-blend-mode: multiply
-
 }
-
 .cards_container{
     display: flex;
     justify-content: space-between;
 }
-
 .card_item{
     width: 386px;
     height: 330px;
@@ -191,24 +170,18 @@
     padding: 30px 30px 40px 30px;
     position: relative;
 }
-
-.db_card{
-    
+.db_card{   
     background-color: #FFF5F5;
 }
-
 .card_pic_box{
     width: 326px;
     height: 200px;  
 }
-
 .pic{
    width: 100%;
    height: 100%;
    object-fit: cover;
-   
 }
-
 .card_text{   
     font-family: 'Nunito', sans-serif;
     text-align: center;
@@ -217,38 +190,28 @@
     line-height: 28px;
     margin-top: 30px;
 }
-
 .db_card_text{
     color: #FC6A57;
 }
-
 .marker{
     display: none;
 }
-
 .card_item:hover{
     border: 1px solid #FC6A57;
     background-color: #FC6A57; 
     padding: 0 0 40px 0;
 }
-
 .card_item:hover .card_text{
-   
     color: #FFFFFF;
 }
-
 .card_item:hover .card_pic_box{
    width: 384px;
-   height: 230px;
-   /*object-fit: cover;*/
-  
+   height: 230px;  
 }
 .card_item:hover .pic{
     border: 1px solid transparent;
     border-radius: 6px 6px 0 0;
 }
-
-
 .card_item:hover .marker{
     display: block;
     width: 32px;
@@ -256,40 +219,29 @@
     top: 30px;
     left: 28px;
 }
-
 .good_idea_block{
     background-color: #FFF5F5;
 }
-
 .gi_title{
     color: #FC6A57;
 }
-
-
-
 .gi_card_text{
     color: #FC6A57;
 }
-
 .bi_title{
     color: #1F3865;
 }
-
 .bi_card{
     background-color: #FFF5F5;
 }
-
 .bi_card_text{
     color: #1F3865;
 }
-
 .card_item.bi_card:hover{
     border: 1px solid #1F3865;
     background-color: #1F3865; 
     padding: 0 0 40px 0;
 }
-
-
 .uppercase_decoration{
     text-transform: uppercase;
 }
@@ -311,15 +263,13 @@
     position: fixed;
     z-index: 999999;
     top: 0;
-    left: 0;
-    
+    left: 0;  
 }
 .menu {
     display: flex;
     justify-content: space-between;
     padding: 40px 80px;
     align-items: center;    
-    
 }
 .menu_title {
     font-family: 'Baloo 2';
@@ -355,8 +305,6 @@
 .bb_title{
     color: #FC6A57;
 }
-
-
 .bb_card {
     width: 200px;
     height: 270px;
@@ -367,7 +315,6 @@
     height: 160px;
     margin-bottom: 40px;
 }
-
 .bb_card_text {
     color: #FC6A57;
     font-family: 'Nunito';
@@ -376,17 +323,14 @@
     line-height: 140%;
     text-align: center;
 }
-
 .card_item:hover .bb_card_text{
     color: #FFFFFF;
 }
-
 .card_item:hover .bb_card_pic{
     width: 198px;
     height: 200px;
     margin-bottom: 20px;
 }
-
 .card_item.bb_card:hover .marker{
     display: block;
     width: 28px;
@@ -395,7 +339,6 @@
     top: 20px;
     left: 20px;
 }
-
 
 /* WISHLIST */
 .wishlist_block{
@@ -459,8 +402,8 @@
     width: 100%;
 }
 
-
 /* FOOTER */
+
 body {
     position: relative;
 }
@@ -486,7 +429,6 @@ body {
     left: 394px;
     top: 0px;
 }
-
 .small_circle {
     width: 167px;
     height: 167px;
@@ -497,7 +439,6 @@ body {
     left: 718px;
     top: 0px;  
 }
-
 .full {
     background-color: #FFF5F5;
     width: 100%;

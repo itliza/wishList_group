@@ -9,8 +9,6 @@
             justify-content: center; 
 
         }
-     
-
         .card_item{
             width: 335px;
             height: 330px;
@@ -40,8 +38,6 @@
             height: 160px;
             margin-bottom: 40px;
         }
-        
-
         .wishlist_cards {
             justify-content: center;
         }
@@ -50,9 +46,6 @@
             width: 100%;
             padding: 50px 50px 100px;
         }
-
-        
-
         .main_screen {
             display: flex;
             flex: 1 0 100%;
@@ -69,16 +62,10 @@
             background: url("../img/bg_bubbles.svg") no-repeat left;
             background-size: contain;
         }
-
         .ms_pic {
             width: 71%;
             margin: 12% 0 5% 15.6%;
         }
-
-        .main_screen_contacts {
-            
-        }
-
         .ms_r_side{
             flex: 0 0 50%;
         }
@@ -91,25 +78,21 @@
         .ms_title {
             font-size: 60px;
             line-height: 80px;
-           
         }
 
         .ms_text {
             font-size: 18px;
             line-height: 20px;
-       
         }
-
-       
         .ms_conter_b1{
             transform: scale(0.85);
            }
 
         .ms_conter_b1::after{
             transform: scale(0.85);
+            right: -65px;
         }
 
-        
     }   
 
     
@@ -120,11 +103,8 @@
     and (max-width: 900px) {
 
         .wrapper{
-            /* max-width: 375px; */
             padding: 10px 20px 0px;
-            margin: 0 auto;
-            
-            
+            margin: 0 auto;   
         }
 
         .menu_full{
@@ -134,12 +114,9 @@
         .ms_l_side .menu_title{
             display: block;
         }
-
         .menu{
             display: none;
         }
-
-
         .navigation{
             display: none;
         }
@@ -151,22 +128,22 @@
         .main_screen{
             flex-direction: column;
             padding: 0;
-            margin: 0 0 126px 0;
+            margin: 0 0 26px 0;
         }
         
         .ms_l_side{
-            flex-direction: row;
-            justify-content: space-between;
-            height: auto;
             background: none;
-            
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
         }
 
         .ms_pic{
             width: 60px;
             height: 60px;
             margin: 0;
-
             flex-shrink: 0;
         }
 
@@ -178,18 +155,12 @@
         .ms_text{
             font-size: 16px;
             line-height: 22px;
-            margin-bottom: 40px;
         }
 
         .ms_r_side{
             margin-top: 60px;
+            width: 80%;
         }
-
-        .ms_counter {
-            justify-content: flex-start;
-            
-        }
-
         .ms_conter_b1 {
             width: 278px;
             height: 278px;
@@ -203,10 +174,8 @@
         }
 
         .ms_counter_date{
-            
             font-size: 24px;
             line-height: 38px;
-            
         }
 
         .content_block{
@@ -217,23 +186,15 @@
             font-size: 30px;
             line-height: 48px;
             margin: 0 6px;
-        }
-
-        
+        }        
         .small_circle_title{
             margin: 0 6px;
         }
-        
         .big_circle_title{
             margin: 0 6px;
             width: 48px;
             height: 48px;
-        
-        
         }
-
-
-
         .footer{
             padding-left: 0;
             padding-right: 0;  
@@ -270,7 +231,9 @@
             align-items: center;
         }
         
-
+        .brands_block .cards_container {
+            justify-content: flex-start;
+        }
         .bb_card_pic{
             width: 80px;
             height: 80px;
@@ -298,7 +261,7 @@
             margin: 0;
         }
         .ms_conter_b1::after{
-            left: 230px;
+            right: -70px;
         }
 
         .wishlist_cards {
@@ -324,6 +287,9 @@
     @media only screen
 
     and (max-width: 500px) {
+        .ms_r_side {
+            width: 90%;
+        }
         .card_item {
             flex: 0 0 100%;
         }
@@ -403,5 +369,8 @@
     and (max-width: 350px) {
         .ms_conter_b1 {
             transform: scale(0.7);
+        }
+        .ms_r_side {
+            width: 100%;
         }
     }
